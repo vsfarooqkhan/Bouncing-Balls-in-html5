@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: block;
+    background: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22;
+}
+
+.central {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    z-index: 100!important;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:0;
+    padding:0;
+    width: calc(100% - 2px); 
+    height: calc(100% - 2px);
+    background: transparent;
+    z-index: 1;
+}
